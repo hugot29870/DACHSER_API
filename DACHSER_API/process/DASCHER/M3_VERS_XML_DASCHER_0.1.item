@@ -902,41 +902,6 @@
       <column comment="" key="false" length="-1" name="MonJSON" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tExtractJSONFields" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="-32">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tExtractJSONFields_1"/>
-    <elementParameter field="CLOSED_LIST" name="READ_BY" value="JSONPATH"/>
-    <elementParameter field="CLOSED_LIST" name="JSON_PATH_VERSION" value="2_1_0"/>
-    <elementParameter field="PREV_COLUMN_LIST" name="JSONFIELD" value="MonJSON"/>
-    <elementParameter field="TEXT" name="LOOP_QUERY" show="false" value="&quot;/bills/bill/line&quot;"/>
-    <elementParameter field="TEXT" name="JSON_LOOP_QUERY" value="&quot;$.root&quot;"/>
-    <elementParameter field="TABLE" name="MAPPING" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="MonJSON"/>
-      <elementValue elementRef="QUERY" value=""/>
-      <elementValue elementRef="NODECHECK" value="false"/>
-      <elementValue elementRef="ISARRAY" value="false"/>
-    </elementParameter>
-    <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
-      <elementValue elementRef="SCHEMA_COLUMN" value="MonJSON"/>
-      <elementValue elementRef="QUERY" value="&quot;@.CONN&quot;"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
-    <elementParameter field="CLOSED_LIST" name="JDK_VERSION" show="false" value="JDK_8"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;UTF-8&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="UTF-8"/>
-    <elementParameter field="CHECK" name="USE_LOOP_AS_ROOT" value="true"/>
-    <elementParameter field="CHECK" name="SPLIT_LIST" show="false" value="true"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tExtractJSONFields_1">
-      <column comment="" key="false" length="-1" name="MonJSON" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="false" length="-1" name="MonJSON" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorJSONField" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="-32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
@@ -1021,38 +986,34 @@
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row8"/>
   </connection>
-  <connection connectorName="FLOW" label="row10" lineStyle="0" metaname="tReplicate_2" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tReplicate_2" target="tXMLMap_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row10"/>
-  </connection>
-  <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tReplicate_2" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tReplicate_2" target="tLogRow_4">
+  <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tReplicate_2" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tReplicate_2" target="tLogRow_4">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row9"/>
+  </connection>
+  <connection connectorName="FLOW" label="row10" lineStyle="0" metaname="tReplicate_2" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tReplicate_2" target="tXMLMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row10"/>
   </connection>
   <connection connectorName="FLOW" label="XmlToRest" lineStyle="0" metaname="XmlToRest" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tRESTClient_3">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="XmlToRest"/>
   </connection>
-  <connection connectorName="RESPONSE" label="row13" lineStyle="0" metaname="RESPONSE" offsetLabelX="-22" offsetLabelY="7" outputId="1" source="tRESTClient_3" target="tLogRow_5">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row13"/>
-  </connection>
-  <connection connectorName="FAULT" label="row14" lineStyle="0" metaname="FAULT" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tRESTClient_3" target="tLogRow_6">
+  <connection connectorName="FAULT" label="row14" lineStyle="0" metaname="FAULT" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tRESTClient_3" target="tLogRow_6">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row14"/>
   </connection>
-  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tFixedFlowInput_2" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_2" target="tExtractJSONFields_1">
+  <connection connectorName="RESPONSE" label="row13" lineStyle="0" metaname="RESPONSE" offsetLabelX="-22" offsetLabelY="7" outputId="2" source="tRESTClient_3" target="tLogRow_5">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row13"/>
   </connection>
-  <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tExtractJSONFields_1" offsetLabelX="0" offsetLabelY="0" source="tExtractJSONFields_1" target="tLogRow_1">
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFixedFlowInput_2" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_2" target="tLogRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row5"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
@@ -1106,13 +1067,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_dc7adb68-ac55-4eca-aecd-d74112fdccae"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>F/pNOiYKFxS+XUzeBhDlvnW2hsMDPWFCDAeEqYuSv7Bp0mYrDj/BfqmfOCPgRHjeY3JWn89E2xBv&#13;
-YWziVWrYGg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1fe98cd1-b550-47b2-ac61-559fa8750416"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kKLUXC7S8680BNjsE8dBHaBcRWd7MxJyrlnx0h780Y/QVkEpBFsnCRdqQdvS6Ur9Do+wcFKyHz/s&#13;
-Lq9WygN72Q==</DigestValue></Reference></SignedInfo><SignatureValue>B7lUshsCRxkAm9aLrLLyFxctxDvmc5ncKuFhw4H7tBvPJqXU5xe6LEcwRnHNNrHAY6del34nuaS9&#13;
-YJn0bApgWCxexvTi49cIO4lTdqPnqEDVt6IialO6OlP1BeTBkhAikDFFxT+ynnw1NbCAaGj6rmKp&#13;
-KHJKRGfmuZRSD5rzSvxJ9rD+g3/aZ0Lnf/5u8k0Gzr/InzkrOWNp2BQtxj6OJlj32dr9ynm7nMdF&#13;
-S9G9JLLbOKICbjmfJ0dR74GdbOQ9IezESEZ5iQhqwUJhVz8lqvc56RoGGHXlBHOBbF4VhcfhUYRB&#13;
-qstW1r4xlxfGeHLqgMf9OQWV15Ksfc3IOej+2A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_62e3d3d0-9fd8-4241-b7c4-56781eb12e84"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kKNYs4Mb7Mrw4vmJ3R4DiECiMcacQdzn7tA3SWYkz0fSRWDn+a+U5Ufwf4Q50amR42GlpIicxS0u&#13;
+4MnuwxvrGg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_da0c0622-501c-4c88-96f6-9b0864a662be"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ry/yOAY2vbwLof+h4Qo77+viiU6fOR+2oanWOYP0xaF5mJK5ZpM7fa3Wj2sIz48Iq3ogU3atsWoT&#13;
+oZR/pcDHfw==</DigestValue></Reference></SignedInfo><SignatureValue>N9W0AbE/jQrPZ02DU6PJenwo4dHmUvzHY1H/wOi+5m1sPHp3YPLigkCEtI8kKxfXgeSfJdSERh+k&#13;
+aIbqlkCFEko4GXT+OjTIkpwiNTIFpdP0LkSz40wPJow2TmyxfvGIsTa/y0hBfYDgtuCIurns+laF&#13;
+H7KBr699kAv6OpLzXqfrtac6GOVV9HwxXm5//ARxMz59YMu0fxQ2S0QxxKxRVxml+p6HyCutLPh0&#13;
+GBRK3b19OstJbOrI2iZstwnUeXsprKTpVVjhRMTp26H34x3JIBQq+td79KLLZKbae1IWGc0AK7P/&#13;
+e3LXAZJh0tPqPAQHP+LVczRizjkOEtbPE2UdkA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1134,4 +1095,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1fe98cd1-b550-47b2-ac61-559fa8750416" Target="#_dc7adb68-ac55-4eca-aecd-d74112fdccae"><Timestamp>2024-01-03 13:32:30</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_da0c0622-501c-4c88-96f6-9b0864a662be" Target="#_62e3d3d0-9fd8-4241-b7c4-56781eb12e84"><Timestamp>2024-01-03 13:36:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
