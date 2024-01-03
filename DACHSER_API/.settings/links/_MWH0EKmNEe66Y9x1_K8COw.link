@@ -1,0 +1,192 @@
+{
+  "itemId" : "_MWH0EKmNEe66Y9x1_K8COw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_b0hRgDcpEeyPcp5oJi3sdg",
+    "parameterList" : [ {
+      "id" : "_soot3zQzEe2EI7QmdQi1YQ",
+      "name" : "context_lib"
+    }, {
+      "id" : "_soot2TQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_connection_driverClass"
+    }, {
+      "id" : "_soot2zQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_connection_jdbcUrl"
+    }, {
+      "id" : "_soot3TQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_connection_userPassword_password"
+    }, {
+      "id" : "_soot3DQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_connection_userPassword_userId"
+    }, {
+      "id" : "_soot2jQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_drivers"
+    }, {
+      "id" : "_soot3jQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_mappingFile"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_7NwsYDfFEeyPcp5oJi3sdg",
+    "parameterList" : [ {
+      "id" : "_zmFE7TjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_AdditionalParams"
+    }, {
+      "id" : "_zmFE6TjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Database"
+    }, {
+      "id" : "_zmFE6jjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Login"
+    }, {
+      "id" : "_zmFE6DjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Password"
+    }, {
+      "id" : "_zmFE7DjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Port"
+    }, {
+      "id" : "_zmFE6zjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Server"
+    } ]
+  }, {
+    "contextName" : "TRN",
+    "repoId" : "_b0hRgDcpEeyPcp5oJi3sdg",
+    "parameterList" : [ {
+      "id" : "_soot3zQzEe2EI7QmdQi1YQ",
+      "name" : "context_lib"
+    }, {
+      "id" : "_soot2TQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_connection_driverClass"
+    }, {
+      "id" : "_soot2zQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_connection_jdbcUrl"
+    }, {
+      "id" : "_soot3TQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_connection_userPassword_password"
+    }, {
+      "id" : "_soot3DQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_connection_userPassword_userId"
+    }, {
+      "id" : "_soot2jQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_drivers"
+    }, {
+      "id" : "_soot3jQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_mappingFile"
+    } ]
+  }, {
+    "contextName" : "TRN",
+    "repoId" : "_7NwsYDfFEeyPcp5oJi3sdg",
+    "parameterList" : [ {
+      "id" : "_zmFE7TjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_AdditionalParams"
+    }, {
+      "id" : "_zmFE6TjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Database"
+    }, {
+      "id" : "_zmFE6jjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Login"
+    }, {
+      "id" : "_zmFE6DjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Password"
+    }, {
+      "id" : "_zmFE7DjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Port"
+    }, {
+      "id" : "_zmFE6zjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Server"
+    } ]
+  }, {
+    "contextName" : "PRD",
+    "repoId" : "_b0hRgDcpEeyPcp5oJi3sdg",
+    "parameterList" : [ {
+      "id" : "_soot5zQzEe2EI7QmdQi1YQ",
+      "name" : "context_lib"
+    }, {
+      "id" : "_soot4TQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_connection_driverClass"
+    }, {
+      "id" : "_soot4zQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_connection_jdbcUrl"
+    }, {
+      "id" : "_soot5TQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_connection_userPassword_password"
+    }, {
+      "id" : "_soot5DQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_connection_userPassword_userId"
+    }, {
+      "id" : "_soot4jQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_drivers"
+    }, {
+      "id" : "_soot5jQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_mappingFile"
+    } ]
+  }, {
+    "contextName" : "PRD",
+    "repoId" : "_7NwsYDfFEeyPcp5oJi3sdg",
+    "parameterList" : [ {
+      "id" : "_zmFE9DjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_AdditionalParams"
+    }, {
+      "id" : "_zmFE8DjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Database"
+    }, {
+      "id" : "_zmFE8TjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Login"
+    }, {
+      "id" : "_zmFE7zjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Password"
+    }, {
+      "id" : "_zmFE8zjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Port"
+    }, {
+      "id" : "_zmFE8jjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Server"
+    } ]
+  }, {
+    "contextName" : "TST",
+    "repoId" : "_b0hRgDcpEeyPcp5oJi3sdg",
+    "parameterList" : [ {
+      "id" : "_soot1zQzEe2EI7QmdQi1YQ",
+      "name" : "context_lib"
+    }, {
+      "id" : "_soot0TQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_connection_driverClass"
+    }, {
+      "id" : "_soot0zQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_connection_jdbcUrl"
+    }, {
+      "id" : "_soot1TQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_connection_userPassword_password"
+    }, {
+      "id" : "_soot1DQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_connection_userPassword_userId"
+    }, {
+      "id" : "_soot0jQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_drivers"
+    }, {
+      "id" : "_soot1jQzEe2EI7QmdQi1YQ",
+      "name" : "JDBC_M3_talenduser_mappingFile"
+    } ]
+  }, {
+    "contextName" : "TST",
+    "repoId" : "_7NwsYDfFEeyPcp5oJi3sdg",
+    "parameterList" : [ {
+      "id" : "_zmFE5jjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_AdditionalParams"
+    }, {
+      "id" : "_zmFE4jjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Database"
+    }, {
+      "id" : "_zmFE4zjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Login"
+    }, {
+      "id" : "_zmFE4TjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Password"
+    }, {
+      "id" : "_zmFE5TjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Port"
+    }, {
+      "id" : "_zmFE5DjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Server"
+    } ]
+  } ]
+}
