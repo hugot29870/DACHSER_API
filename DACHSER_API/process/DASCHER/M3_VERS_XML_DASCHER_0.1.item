@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="PRD" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" internalId="_7igyIKl6Ee66Y9x1_K8COw" name="new1" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_7igyIKl6Ee66Y9x1_K8COw" name="XMLParam" prompt="XMLParam?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_7igyIal6Ee66Y9x1_K8COw" name="NomFichierExportDascher" prompt="NomFichierExportDascher?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ExportDascher.xml"/>
     <contextParameter comment="" internalId="_7igyIql6Ee66Y9x1_K8COw" name="RepExport" prompt="RepExport?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Temp/Dascher/"/>
     <contextParameter comment="" internalId="_7igyI6l6Ee66Y9x1_K8COw" name="DATALAKETRN" prompt="DATALAKETRN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DatalakeM3TRN"/>
@@ -24,9 +24,10 @@
     <contextParameter comment="" internalId="_q6ouAKmHEe66Y9x1_K8COw" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="[{ &quot;type&quot;: &quot;application/xml&quot;, &quot;data&quot;: &quot;CONN&quot; }]"/>
     <contextParameter comment="" internalId="_zRKHQKo7Ee6V4ZpmMqdbUw" name="ReplaceFirst" prompt="ReplaceFirst?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;[{\&quot;data\&quot;:\&quot;&quot;"/>
     <contextParameter comment="" internalId="_zRKHQao7Ee6V4ZpmMqdbUw" name="ReplaceLast" prompt="ReplaceLast?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;,\&quot;type\&quot;:\&quot;application/json\&quot;}]&quot;"/>
+    <contextParameter comment="" internalId="_1YbqoKrcEe6LPMR85ZZnXw" name="new2" prompt="new2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRD">
-    <contextParameter comment="" internalId="_7igyKKl6Ee66Y9x1_K8COw" name="new1" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_7igyKKl6Ee66Y9x1_K8COw" name="XMLParam" prompt="XMLParam?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_7igyKal6Ee66Y9x1_K8COw" name="NomFichierExportDascher" prompt="NomFichierExportDascher?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ExportDascher.xml"/>
     <contextParameter comment="" internalId="_7igyKql6Ee66Y9x1_K8COw" name="RepExport" prompt="RepExport?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Temp/Dascher/"/>
     <contextParameter comment="" internalId="_7igyK6l6Ee66Y9x1_K8COw" name="DATALAKETRN" prompt="DATALAKETRN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DatalakeM3TRN"/>
@@ -50,9 +51,10 @@
     <contextParameter comment="" internalId="_q6pVEKmHEe66Y9x1_K8COw" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="[{ &quot;type&quot;: &quot;application/xml&quot;, &quot;data&quot;: &quot;CONN&quot; }]"/>
     <contextParameter comment="" internalId="_zRKHQqo7Ee6V4ZpmMqdbUw" name="ReplaceFirst" prompt="ReplaceFirst?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;[{\&quot;data\&quot;:\&quot;&quot;"/>
     <contextParameter comment="" internalId="_zRKHQ6o7Ee6V4ZpmMqdbUw" name="ReplaceLast" prompt="ReplaceLast?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;,\&quot;type\&quot;:\&quot;application/json\&quot;}]&quot;"/>
+    <contextParameter comment="" internalId="_1YbqoarcEe6LPMR85ZZnXw" name="new2" prompt="new2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" hide="false" name="TRN">
-    <contextParameter comment="" internalId="_7igyMKl6Ee66Y9x1_K8COw" name="new1" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_7igyMKl6Ee66Y9x1_K8COw" name="XMLParam" prompt="XMLParam?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_7igyMal6Ee66Y9x1_K8COw" name="NomFichierExportDascher" prompt="NomFichierExportDascher?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ExportDascher.xml"/>
     <contextParameter comment="" internalId="_7igyMql6Ee66Y9x1_K8COw" name="RepExport" prompt="RepExport?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Temp/Dascher/"/>
     <contextParameter comment="" internalId="_7igyM6l6Ee66Y9x1_K8COw" name="DATALAKETRN" prompt="DATALAKETRN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DatalakeM3TRN"/>
@@ -76,9 +78,10 @@
     <contextParameter comment="" internalId="_q6pVEamHEe66Y9x1_K8COw" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="[{ &quot;type&quot;: &quot;application/xml&quot;, &quot;data&quot;: &quot;CONN&quot; }]"/>
     <contextParameter comment="" internalId="_zRKHRKo7Ee6V4ZpmMqdbUw" name="ReplaceFirst" prompt="ReplaceFirst?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;[{\&quot;data\&quot;:\&quot;&quot;"/>
     <contextParameter comment="" internalId="_zRKHRao7Ee6V4ZpmMqdbUw" name="ReplaceLast" prompt="ReplaceLast?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;,\&quot;type\&quot;:\&quot;application/json\&quot;}]&quot;"/>
+    <contextParameter comment="" internalId="_1YcRsKrcEe6LPMR85ZZnXw" name="new2" prompt="new2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" hide="false" name="DEV">
-    <contextParameter comment="" internalId="_7igyOKl6Ee66Y9x1_K8COw" name="new1" prompt="new1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_7igyOKl6Ee66Y9x1_K8COw" name="XMLParam" prompt="XMLParam?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_7igyOal6Ee66Y9x1_K8COw" name="NomFichierExportDascher" prompt="NomFichierExportDascher?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ExportDascher.xml"/>
     <contextParameter comment="" internalId="_7igyOql6Ee66Y9x1_K8COw" name="RepExport" prompt="RepExport?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Temp/Dascher/"/>
     <contextParameter comment="" internalId="_7igyO6l6Ee66Y9x1_K8COw" name="DATALAKETRN" prompt="DATALAKETRN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DatalakeM3TRN"/>
@@ -102,6 +105,7 @@
     <contextParameter comment="" internalId="_q6pVEqmHEe66Y9x1_K8COw" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="[{ &quot;type&quot;: &quot;application/xml&quot;, &quot;data&quot;: &quot;CONN&quot; }]"/>
     <contextParameter comment="" internalId="_zRKHRqo7Ee6V4ZpmMqdbUw" name="ReplaceFirst" prompt="ReplaceFirst?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;[{\&quot;data\&quot;:\&quot;&quot;"/>
     <contextParameter comment="" internalId="_zRKHR6o7Ee6V4ZpmMqdbUw" name="ReplaceLast" prompt="ReplaceLast?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;,\&quot;type\&quot;:\&quot;application/json\&quot;}]&quot;"/>
+    <contextParameter comment="" internalId="_1YcRsarcEe6LPMR85ZZnXw" name="new2" prompt="new2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -1002,30 +1006,30 @@
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row8"/>
   </connection>
-  <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tReplicate_2" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tReplicate_2" target="tLogRow_4">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row9"/>
-  </connection>
-  <connection connectorName="FLOW" label="row10" lineStyle="0" metaname="tReplicate_2" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tReplicate_2" target="tXMLMap_1">
+  <connection connectorName="FLOW" label="row10" lineStyle="0" metaname="tReplicate_2" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tReplicate_2" target="tXMLMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row10"/>
+  </connection>
+  <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tReplicate_2" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tReplicate_2" target="tLogRow_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row9"/>
   </connection>
   <connection connectorName="FLOW" label="XmlToRest" lineStyle="0" metaname="XmlToRest" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tRESTClient_3">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="XmlToRest"/>
   </connection>
-  <connection connectorName="FAULT" label="row14" lineStyle="0" metaname="FAULT" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tRESTClient_3" target="tLogRow_6">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row14"/>
-  </connection>
-  <connection connectorName="RESPONSE" label="row13" lineStyle="0" metaname="RESPONSE" offsetLabelX="-22" offsetLabelY="7" outputId="2" source="tRESTClient_3" target="tLogRow_5">
+  <connection connectorName="RESPONSE" label="row13" lineStyle="0" metaname="RESPONSE" offsetLabelX="-22" offsetLabelY="7" outputId="1" source="tRESTClient_3" target="tLogRow_5">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row13"/>
+  </connection>
+  <connection connectorName="FAULT" label="row14" lineStyle="0" metaname="FAULT" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tRESTClient_3" target="tLogRow_6">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row14"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" source="tJava_3" target="tFixedFlowInput_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
@@ -1109,13 +1113,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6d808897-98c1-46a6-a667-8b925ae220f0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>xwOxYRrwabN7/jQ5vTQy42+WNc3RI8CkjPwNG6euZT11fPteZ3bjtxqAJnu156krs/EepSxIyoA7&#13;
-6Oj5Flp4qQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bff7d8ee-58a9-43e0-b1d2-cdfd731fe4fa"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>EUs8L9A9VhDn2lbijS8WE3iBYM6nrDoZAf5PEytseFGlX571tdJYkCLS8eOQ1poGwsn78TU6gGjj&#13;
-tuI6FCy8PQ==</DigestValue></Reference></SignedInfo><SignatureValue>Or/CRqTICPhIINQ7GrHx8D/ZSYkVDABDUAxwAee0Wz/tAURtfhx5KkizTSCjajp1RCxaW4YmVKES&#13;
-VzGMN8lkcaqGUGoFjr7rhZzWkMsiI0nkqqQMd5T8KZPJl9vBNXPPCUtLajJMfGZhUIKucwh0vR8k&#13;
-8Ge+0DUug5wqoowhuslBDTtjABWA8f26VIh0MHpUY+sCeyETV7RAjOzYUfRwg225DVwRUlMN6XnT&#13;
-HddycyjwMC+cdwtxr1hCNZTDV/puDFRsZULChGJNwaxDE0EKAmbodii92rjs5lRX3bAZu9MsQE/U&#13;
-uYBu+7nPhiupl3w5fkNEGaM+DRdaaiLnHsna4Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_43258080-d6c9-4cf8-bd1e-731c5ec3bbcd"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>k4OIaD7qm1FU+JDAL2jHVc08kd9+ZXVT534dE3nRuEon6d5RVaJLV4xoOmsJOO4tCmz79YO7L0GP&#13;
+8TSy92B6Vw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b61a732d-817e-462c-a6cb-dbcdf94542ca"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+Xba5xi7Konh+uk6zwl6q3maXziyTTSNeNWumilqqOSyQGFFoMqr3iCdNVLjUs8MhyOUAONlJ129&#13;
+q10ky0hy5w==</DigestValue></Reference></SignedInfo><SignatureValue>H2a43I4X6qLCB+7IJK9yJccYWQysTbZ1cPwfN5kjxPX7b8xfLVrC09Yd5EaS5yKFGrdESZ+Dmn53&#13;
+q/ri1h50L3cEjYV28DRsLmyJ66c0NVSpfOGdC4+OoWsSRX3Qe0HqwGRBxokugIf2MPRow/bjEC+s&#13;
+m7to32Q3OcFDzSsai33hqQ4slXWT34kbYGnKB5Q+Ore/OViqAWCFunSqv7jFg4gRZxXJiSnZGrac&#13;
+Cedn8Fao8db8ZZg//ftU8bfa3AqaXYqmHu4PSpNeD9r/fgI287JGMjhGTSPhk3mLXl1mCLaVBjKU&#13;
+Ggi5cMoRuVvWfqANcIUZ6r6DH0qwd/NVG91Jqg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1137,4 +1141,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bff7d8ee-58a9-43e0-b1d2-cdfd731fe4fa" Target="#_6d808897-98c1-46a6-a667-8b925ae220f0"><Timestamp>2024-01-04 08:37:20</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b61a732d-817e-462c-a6cb-dbcdf94542ca" Target="#_43258080-d6c9-4cf8-bd1e-731c5ec3bbcd"><Timestamp>2024-01-04 08:39:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
