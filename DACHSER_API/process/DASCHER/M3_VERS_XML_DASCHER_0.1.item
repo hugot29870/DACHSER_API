@@ -21,7 +21,7 @@
     <contextParameter comment="" internalId="_GblNeql7Ee66Y9x1_K8COw" name="JDBC_M3_talenduser_connection_userPassword_userId" prompt="JDBC_M3_talenduser_connection_userPassword_userId?" promptNeeded="false" repositoryContextId="_b0hRgDcpEeyPcp5oJi3sdg" type="id_String" value="talendusr@tanguy.fr "/>
     <contextParameter comment="" internalId="_GblNe6l7Ee66Y9x1_K8COw" name="JDBC_M3_talenduser_drivers" prompt="JDBC_M3_talenduser_drivers?" promptNeeded="false" repositoryContextId="_b0hRgDcpEeyPcp5oJi3sdg" type="id_String" value="&quot;mvn:org.talend.libraries/infor-compass-jdbc-trn/6.0.0-SNAPSHOT/jar&quot;"/>
     <contextParameter comment="" internalId="_GblNfKl7Ee66Y9x1_K8COw" name="JDBC_M3_talenduser_connection_userPassword_password" prompt="JDBC_M3_talenduser_connection_userPassword_password?" promptNeeded="false" repositoryContextId="_b0hRgDcpEeyPcp5oJi3sdg" type="id_Password" value="enc:system.encryption.key.v1:l52OwkRCcC+w3LCPI5FyLyAPUFZJjCFM2JFf5WivRwvCpGwiJwFRmsvqakQ="/>
-    <contextParameter comment="" internalId="_q6ouAKmHEe66Y9x1_K8COw" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_q6ouAKmHEe66Y9x1_K8COw" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="[{ &quot;type&quot;: &quot;application/xml&quot;, &quot;data&quot;: &quot;CONN&quot; }]"/>
     <contextParameter comment="" internalId="_zRKHQKo7Ee6V4ZpmMqdbUw" name="ReplaceFirst" prompt="ReplaceFirst?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;[{\&quot;data\&quot;:\&quot;&quot;"/>
     <contextParameter comment="" internalId="_zRKHQao7Ee6V4ZpmMqdbUw" name="ReplaceLast" prompt="ReplaceLast?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;,\&quot;type\&quot;:\&quot;application/json\&quot;}]&quot;"/>
   </context>
@@ -47,7 +47,7 @@
     <contextParameter comment="" internalId="_GblNh6l7Ee66Y9x1_K8COw" name="JDBC_M3_talenduser_connection_userPassword_userId" prompt="JDBC_M3_talenduser_connection_userPassword_userId?" promptNeeded="false" repositoryContextId="_b0hRgDcpEeyPcp5oJi3sdg" type="id_String" value="talendusr@tanguy.fr "/>
     <contextParameter comment="" internalId="_GblNiKl7Ee66Y9x1_K8COw" name="JDBC_M3_talenduser_drivers" prompt="JDBC_M3_talenduser_drivers?" promptNeeded="false" repositoryContextId="_b0hRgDcpEeyPcp5oJi3sdg" type="id_String" value="&quot;mvn:org.talend.libraries/infor-compass-jdbc-prd/6.0.0-SNAPSHOT/jar&quot;"/>
     <contextParameter comment="" internalId="_GblNial7Ee66Y9x1_K8COw" name="JDBC_M3_talenduser_connection_userPassword_password" prompt="JDBC_M3_talenduser_connection_userPassword_password?" promptNeeded="false" repositoryContextId="_b0hRgDcpEeyPcp5oJi3sdg" type="id_Password" value="enc:system.encryption.key.v1:IhKDqb3QvJy/qCWPwgUPXk8pW24Q63TgBhEYexrvEfUUmycf54W22L8RbWg="/>
-    <contextParameter comment="" internalId="_q6pVEKmHEe66Y9x1_K8COw" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_q6pVEKmHEe66Y9x1_K8COw" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="[{ &quot;type&quot;: &quot;application/xml&quot;, &quot;data&quot;: &quot;CONN&quot; }]"/>
     <contextParameter comment="" internalId="_zRKHQqo7Ee6V4ZpmMqdbUw" name="ReplaceFirst" prompt="ReplaceFirst?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;[{\&quot;data\&quot;:\&quot;&quot;"/>
     <contextParameter comment="" internalId="_zRKHQ6o7Ee6V4ZpmMqdbUw" name="ReplaceLast" prompt="ReplaceLast?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;,\&quot;type\&quot;:\&quot;application/json\&quot;}]&quot;"/>
   </context>
@@ -73,7 +73,7 @@
     <contextParameter comment="" internalId="_Gbl0iql7Ee66Y9x1_K8COw" name="JDBC_M3_talenduser_connection_userPassword_userId" prompt="JDBC_M3_talenduser_connection_userPassword_userId?" promptNeeded="false" repositoryContextId="_b0hRgDcpEeyPcp5oJi3sdg" type="id_String" value="talendusr@tanguy.fr "/>
     <contextParameter comment="" internalId="_Gbl0i6l7Ee66Y9x1_K8COw" name="JDBC_M3_talenduser_drivers" prompt="JDBC_M3_talenduser_drivers?" promptNeeded="false" repositoryContextId="_b0hRgDcpEeyPcp5oJi3sdg" type="id_String" value="&quot;mvn:org.talend.libraries/infor-compass-jdbc-trn/6.0.0-SNAPSHOT/jar&quot;"/>
     <contextParameter comment="" internalId="_Gbl0jKl7Ee66Y9x1_K8COw" name="JDBC_M3_talenduser_connection_userPassword_password" prompt="JDBC_M3_talenduser_connection_userPassword_password?" promptNeeded="false" repositoryContextId="_b0hRgDcpEeyPcp5oJi3sdg" type="id_Password" value="enc:system.encryption.key.v1:3wUNa22AXtPNvQDty2YD8RWqURBxatoDZNZXv3gpM0fOXMJtxzyc46L8yew="/>
-    <contextParameter comment="" internalId="_q6pVEamHEe66Y9x1_K8COw" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_q6pVEamHEe66Y9x1_K8COw" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="[{ &quot;type&quot;: &quot;application/xml&quot;, &quot;data&quot;: &quot;CONN&quot; }]"/>
     <contextParameter comment="" internalId="_zRKHRKo7Ee6V4ZpmMqdbUw" name="ReplaceFirst" prompt="ReplaceFirst?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;[{\&quot;data\&quot;:\&quot;&quot;"/>
     <contextParameter comment="" internalId="_zRKHRao7Ee6V4ZpmMqdbUw" name="ReplaceLast" prompt="ReplaceLast?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;,\&quot;type\&quot;:\&quot;application/json\&quot;}]&quot;"/>
   </context>
@@ -99,7 +99,7 @@
     <contextParameter comment="" internalId="_Gbl0l6l7Ee66Y9x1_K8COw" name="JDBC_M3_talenduser_connection_userPassword_userId" prompt="JDBC_M3_talenduser_connection_userPassword_userId?" promptNeeded="false" repositoryContextId="_b0hRgDcpEeyPcp5oJi3sdg" type="id_String" value="talendusr@tanguy.fr "/>
     <contextParameter comment="" internalId="_Gbl0mKl7Ee66Y9x1_K8COw" name="JDBC_M3_talenduser_drivers" prompt="JDBC_M3_talenduser_drivers?" promptNeeded="false" repositoryContextId="_b0hRgDcpEeyPcp5oJi3sdg" type="id_String" value="&quot;mvn:org.talend.libraries/infor-compass-jdbc-trn/6.0.0-SNAPSHOT/jar&quot;"/>
     <contextParameter comment="" internalId="_Gbl0mal7Ee66Y9x1_K8COw" name="JDBC_M3_talenduser_connection_userPassword_password" prompt="JDBC_M3_talenduser_connection_userPassword_password?" promptNeeded="false" repositoryContextId="_b0hRgDcpEeyPcp5oJi3sdg" type="id_Password" value="enc:system.encryption.key.v1:+Xb+4NQK4oNblnoeuJ96kw+Z/jxOaIivVRUZFf/2CzspYN1lu9bqxvt+oV8="/>
-    <contextParameter comment="" internalId="_q6pVEqmHEe66Y9x1_K8COw" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_q6pVEqmHEe66Y9x1_K8COw" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="[{ &quot;type&quot;: &quot;application/xml&quot;, &quot;data&quot;: &quot;CONN&quot; }]"/>
     <contextParameter comment="" internalId="_zRKHRqo7Ee6V4ZpmMqdbUw" name="ReplaceFirst" prompt="ReplaceFirst?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;[{\&quot;data\&quot;:\&quot;&quot;"/>
     <contextParameter comment="" internalId="_zRKHR6o7Ee6V4ZpmMqdbUw" name="ReplaceLast" prompt="ReplaceLast?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;,\&quot;type\&quot;:\&quot;application/json\&quot;}]&quot;"/>
   </context>
@@ -223,10 +223,6 @@
       <elementValue elementRef="VALUE" value="TalendDate.formatDateInUTC(&quot;yyyyMMdd&quot;, TalendDate.getCurrentDate() )"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CurentHeure_UTC_RGTM"/>
       <elementValue elementRef="VALUE" value="TalendDate.addDate(TalendDate.formatDateInUTC(&quot;HHmmss&quot;, TalendDate.getCurrentDate() ),&quot;HHmmss&quot;,-1,&quot;HH&quot;)"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Param"/>
-      <elementValue elementRef="VALUE" value="context.resource_webhook_payload"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MonJsonInput"/>
-      <elementValue elementRef="VALUE" value="StringHandling.SUBSTR(StringHandling.SUBSTR(context.resource_webhook_payload,StringHandling.LEN(context.ReplaceFirst)+1,StringHandling.LEN(context.resource_webhook_payload)),1,StringHandling.LEN(context.resource_webhook_payload)-(StringHandling.LEN(context.ReplaceLast)+StringHandling.LEN(context.ReplaceFirst)))"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>
@@ -239,8 +235,6 @@
       <column comment="" key="false" length="-1" name="CurrentDateHeureUTC" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="CurentDate_UTC_RGDT" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="CurentHeure_UTC_RGTM" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Param" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="MonJsonInput" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="-192">
@@ -263,10 +257,6 @@
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CurentHeure_UTC_RGTM"/>
       <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Param"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MonJsonInput"/>
-      <elementValue elementRef="LENGTH" value="10"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
@@ -275,8 +265,6 @@
       <column comment="" key="false" length="-1" name="CurrentDateHeureUTC" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="CurentDate_UTC_RGDT" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="CurentHeure_UTC_RGTM" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Param" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="MonJsonInput" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="-192">
@@ -296,8 +284,6 @@
       <column comment="" key="false" length="-1" name="CurrentDateHeureUTC" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="CurentDate_UTC_RGDT" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="CurentHeure_UTC_RGTM" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Param" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="MonJsonInput" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="-192">
@@ -368,7 +354,7 @@
     <metadata connector="MERGE" name="MERGE"/>
     <metadata connector="REJECT" name="REJECT"/>
   </node>
-  <node componentName="JDBCInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="128" posY="128">
+  <node componentName="JDBCInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="288" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="bmV3amRiYyNKREJDI0lucHV0"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
@@ -473,7 +459,7 @@
     <metadata connector="MERGE" name="MERGE"/>
     <metadata connector="REJECT" name="REJECT"/>
   </node>
-  <node componentName="tReplicate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="128">
+  <node componentName="tReplicate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tReplicate_2"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -498,7 +484,7 @@
       <column comment="" defaultValue="" key="false" length="-1" name="LivDat2" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="256">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="448">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_4"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
@@ -574,7 +560,7 @@
       <column comment="" defaultValue="" key="false" length="-1" name="LivDat2" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="544" posY="128">
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="704" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
@@ -696,7 +682,7 @@
       <connections source="//@node.11/@nodeData/@inputTrees.0/@nodes.3" target="//@node.11/@nodeData/@outputTrees.1/@nodes.0/@children.0/@children.5/@children.0" xsi:type="TalendXMLMap:Connection"/>
     </nodeData>
   </node>
-  <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="800" posY="128">
+  <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTClient_3"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="URL" value="&quot;https://api-gateway.dachser.com/rest/v2/transportorders/imported&quot;"/>
@@ -763,7 +749,7 @@
       <column defaultValue="" key="false" length="1024" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="128">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1440" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_5"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
@@ -794,7 +780,7 @@
       <column defaultValue="" key="false" length="4048" name="string" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="256">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1440" posY="448">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_6"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
@@ -883,13 +869,21 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_2"/>
   </node>
-  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="-32">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="-32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//Dans le Payload(tableau JSON) on récupère les données (&quot;data&quot;) au format XML et on le stocke dans une variable de context&#10;String InputPayload = resource_webhook_payload;&#9;//Mettre ici le nom de la variable d'entrée&#10;&#10;System.out.println(InputPayload);&#10;&#10;int InputSize = StringHandling.LEN(InputPayload);&#10;System.out.println(InputPayload);&#10;String TransformedInputPayload = StringHandling.SUBSTR(InputPayload,3,InputSize);&#10;&#10;InputSize= StringHandling.LEN(TransformedInputPayload);&#10;TransformedInputPayload = StringHandling.SUBSTR(TransformedInputPayload,1,InputSize);&#10;&#10;String[] arr = TransformedInputPayload.split(&quot;,&quot;); &#10;String Comp =&quot;\&quot;data\&quot;&quot; ;&#10;String Resultbcl;&#10;&#10;for (String strTemp : arr){&#9;&#10;&#9;if(StringHandling.SUBSTR(strTemp,0,6).equals(Comp)){&#10;&#9;&#9;Resultbcl=StringHandling.SUBSTR(strTemp,9,StringHandling.LEN(strTemp)-9);&#10;&#9;&#9;context.XMLParam=Resultbcl;&#10;&#9;}&#10;&#10;}&#10;&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__Recup.Param.XML__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_3"/>
+  </node>
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="-32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_2"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
     <elementParameter field="TABLE" name="VALUES">
-      <elementValue elementRef="SCHEMA_COLUMN" value="MonJSON"/>
-      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;JsonParams&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MonXML"/>
+      <elementValue elementRef="VALUE" value="context.XMLParam"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>
@@ -897,34 +891,59 @@
     <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
     <elementParameter field="MEMO" name="INLINECONTENT" show="false" value=""/>
+    <elementParameter field="TEXT" name="LABEL" value="__VariableVersFlow__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFixedFlowInput_2">
-      <column comment="" key="false" length="-1" name="MonJSON" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MonXML" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="-32">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
-    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
-    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
-    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
-    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
-    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
-    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
-    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
-    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
-    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
-    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
-    <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="MonJSON"/>
-      <elementValue elementRef="LENGTH" value="10"/>
+  <node componentName="tExtractXMLField" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="-32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tExtractXMLField_1"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="XMLFIELD" value="MonXML"/>
+    <elementParameter field="CHECK" name="USE_ITEMS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY_BASE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;root&quot;"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ValeurRecup"/>
+      <elementValue elementRef="QUERY" value="&quot;CONN&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_XML_FIELD" show="false" value="false"/>
+    <elementParameter field="TEXT" name="XML_TEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="XML_PREFIX" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="CHECK" name="IGNORE_NS" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tLogRow_1">
-      <column comment="" key="false" length="-1" name="MonJSON" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    <metadata connector="FLOW" name="tExtractXMLField_1">
+      <column comment="" key="false" length="-1" name="ValeurRecup" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="ValeurRecup" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorXMLField" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1184" posY="-32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSetGlobalVar_2"/>
+    <elementParameter field="TABLE" name="VARIABLES">
+      <elementValue elementRef="KEY" value="&quot;CONN&quot;"/>
+      <elementValue elementRef="VALUE" value="row2.CONN"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSetGlobalVar_2">
+      <column comment="" key="false" length="-1" name="ValeurRecup" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_4"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(globalMap.get(&quot;CONN&quot;));"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TestPrintln__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_4"/>
   </node>
   <connection connectorName="FLOW" label="row11" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tLogRow_2">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
@@ -958,9 +977,6 @@
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row11"/>
-  </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tFixedFlowInput_2">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
   </connection>
   <connection connectorName="FLOW" label="row12" lineStyle="0" metaname="tLogRow_2" offsetLabelX="0" offsetLabelY="0" source="tLogRow_2" target="tSetGlobalVar_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -1011,9 +1027,19 @@
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row13"/>
   </connection>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFixedFlowInput_2" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_2" target="tLogRow_1">
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" source="tJava_3" target="tFixedFlowInput_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFixedFlowInput_2" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_2" target="tExtractXMLField_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_2" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_2" target="tJava_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk4"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tExtractXMLField_1" offsetLabelX="0" offsetLabelY="0" source="tExtractXMLField_1" target="tSetGlobalVar_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
@@ -1048,8 +1074,10 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Récupération données SQL --&gt; Envoi vers API Dachser (Rest)"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
@@ -1063,17 +1091,31 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Parsage du payload input"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_2"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Stockage de la valeur dans une variable de context"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_4"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3c7f11b6-c59d-45ec-a3ba-82f210589a75"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Xf0BnGzA6APjcu5jJTMkaTqLojMGYsmgoEHwpoc/v3D7oQnn7EMAC1c9CdG0KukTu55yza/KVkD2&#13;
-0HgWp/FYfg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2c2473dd-5a12-48b3-828d-6cc76a07654d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JRVegghdt0yKqL2LkEblFfzCcVL/MtuyeuJJaqjioZd7tqi1SNjrN3LhuReqLyoSIct8q2qG4fSu&#13;
-L/1f4TTGDQ==</DigestValue></Reference></SignedInfo><SignatureValue>KYPAg9TN0P521j0kiYPbbA7TP4K0gU+9YFO9dCshyy/G3l83r1PHGh0F2Oqjexobapwl1WyRvuDA&#13;
-L4LfvbW2TKciWmabWlL7Q9KPIPyQGmFgvXL8vWoY2igfxG6bRAzPA3dVSsUSujc7Z+cYESn6NG7C&#13;
-grkZvtpS2IvkKX49KQPA6AgTjqdLSVgMDKlA6fiEConDKuGSPp2NVVFEoKCeQhUiX2wKKtS+fbsK&#13;
-CjJ4XbzgJ82InqdNVmkwOdAFPQxfAKHONRFjFeS5H56/Dt5wN17TxyzvSFMCYm2Is4MQXWLCWH+Q&#13;
-CO0LuuAXmMoOwF9jCaMxklGSA68dDbQ2KWHCdQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6d808897-98c1-46a6-a667-8b925ae220f0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>xwOxYRrwabN7/jQ5vTQy42+WNc3RI8CkjPwNG6euZT11fPteZ3bjtxqAJnu156krs/EepSxIyoA7&#13;
+6Oj5Flp4qQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bff7d8ee-58a9-43e0-b1d2-cdfd731fe4fa"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>EUs8L9A9VhDn2lbijS8WE3iBYM6nrDoZAf5PEytseFGlX571tdJYkCLS8eOQ1poGwsn78TU6gGjj&#13;
+tuI6FCy8PQ==</DigestValue></Reference></SignedInfo><SignatureValue>Or/CRqTICPhIINQ7GrHx8D/ZSYkVDABDUAxwAee0Wz/tAURtfhx5KkizTSCjajp1RCxaW4YmVKES&#13;
+VzGMN8lkcaqGUGoFjr7rhZzWkMsiI0nkqqQMd5T8KZPJl9vBNXPPCUtLajJMfGZhUIKucwh0vR8k&#13;
+8Ge+0DUug5wqoowhuslBDTtjABWA8f26VIh0MHpUY+sCeyETV7RAjOzYUfRwg225DVwRUlMN6XnT&#13;
+HddycyjwMC+cdwtxr1hCNZTDV/puDFRsZULChGJNwaxDE0EKAmbodii92rjs5lRX3bAZu9MsQE/U&#13;
+uYBu+7nPhiupl3w5fkNEGaM+DRdaaiLnHsna4Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1095,4 +1137,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2c2473dd-5a12-48b3-828d-6cc76a07654d" Target="#_3c7f11b6-c59d-45ec-a3ba-82f210589a75"><Timestamp>2024-01-03 13:52:53</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bff7d8ee-58a9-43e0-b1d2-cdfd731fe4fa" Target="#_6d808897-98c1-46a6-a667-8b925ae220f0"><Timestamp>2024-01-04 08:37:20</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
