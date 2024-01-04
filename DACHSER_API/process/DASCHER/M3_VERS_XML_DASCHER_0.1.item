@@ -368,7 +368,7 @@
   <node componentName="JDBCInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="736" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="bmV3amRiYyNKREJDI0lucHV0"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" show="false" value=""/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.enableDBType" show="false" value="false"/>
@@ -387,7 +387,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.authenticationType" show="false" value="BASIC"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.grantType" show="false" value="CLIENT_CREDENTIALS"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;&#13;&#10;SELECT  &#13;&#10;DISTINCT &#13;&#10;ODHEAD.ORNO as NoCommande,&#13;&#10;DCONSI.CONN as NoExpedition,&#13;&#10;OCUSMA.CUNO,&#13;&#10;OCUSMA.CUNM as LogiNom,&#13;&#10;OCUSMA.CUA1 as LogiAdr,&#13;&#10;OCUSMA.CUA2 As LogiAdr2,&#13;&#10;OCUSMA.CUA4 as LogiPays,&#13;&#10;OCUSMA.TOWN as LogiVille,&#13;&#10;OCUSMA.PONO as LogiCodePostal,&#13;&#10;OCUSAD.CUNM as CliNom,&#13;&#10;OCUSAD.CUA1 as CliAdr,&#13;&#10;OCUSAD.CUA2 As CliAdr2,&#13;&#10;OCUSAD.CUA4 as CliPays,&#13;&#10;OCUSAD.TOWN as CliVille,&#13;&#10;OCUSAD.PHNO as tel,&#13;&#10;OCUSAD.PONO as CliCodePostal,&#13;&#10;DCONSI.DSDT as LivDat1,&#13;&#10;DCONSI.ARDT as LivDat2&#13;&#10;FROM ODHEAD &#13;&#10; LEFT JOIN OCUSMA ON OCUSMA.CUNO =ODHEAD.CUNO &#13;&#10; LEFT JOIN DCONSI ON DCONSI.CONN =ODHEAD.CONN &#13;&#10; LEFT JOIN OCUSAD ON OCUSAD.ADID =ODHEAD.ADID AND OCUSAD.CUNO  =ODHEAD.CUNO &#13;&#10; LEFT JOIN MPTRNS ON MPTRNS.DLIX = ODHEAD.DLIX &#13;&#10;WHERE DCONSI.CONN = &quot;+globalMap.get(&quot;CONN&quot;)+&quot; &#13;&#10;ORDER BY ODHEAD.ORNO&#13;&#10;LIMIT 1&#13;&#10;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;&#13;&#10;SELECT  &#13;&#10;DISTINCT &#13;&#10;ODHEAD.ORNO as NoCommande,&#13;&#10;DCONSI.CONN as NoExpedition,&#13;&#10;OCUSMA.CUNO,&#13;&#10;OCUSMA.CUNM as LogiNom,&#13;&#10;OCUSMA.CUA1 as LogiAdr,&#13;&#10;OCUSMA.CUA2 As LogiAdr2,&#13;&#10;OCUSMA.CUA4 as LogiPays,&#13;&#10;OCUSMA.TOWN as LogiVille,&#13;&#10;OCUSMA.PONO as LogiCodePostal,&#13;&#10;OCUSAD.CUNM as CliNom,&#13;&#10;OCUSAD.CUA1 as CliAdr,&#13;&#10;OCUSAD.CUA2 As CliAdr2,&#13;&#10;OCUSAD.CUA4 as CliPays,&#13;&#10;OCUSAD.TOWN as CliVille,&#13;&#10;OCUSAD.PHNO as tel,&#13;&#10;OCUSAD.PONO as CliCodePostal,&#13;&#10;DCONSI.DSDT as LivDat1,&#13;&#10;DCONSI.ARDT as LivDat2&#13;&#10;FROM ODHEAD &#13;&#10; LEFT JOIN OCUSMA ON OCUSMA.CUNO =ODHEAD.CUNO &#13;&#10; LEFT JOIN DCONSI ON DCONSI.CONN =ODHEAD.CONN &#13;&#10; LEFT JOIN OCUSAD ON OCUSAD.ADID =ODHEAD.ADID AND OCUSAD.CUNO  =ODHEAD.CUNO &#13;&#10; LEFT JOIN MPTRNS ON MPTRNS.DLIX = ODHEAD.DLIX &#13;&#10;WHERE DCONSI.CONN = &quot;+globalMap.get(&quot;CONN&quot;)+&quot; &#13;&#10;ORDER BY ODHEAD.ORNO&#13;&#10;LIMIT 4&#13;&#10;&quot;"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useAutoCommit" show="false" value="true"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.autoCommit" show="false" value="false"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.defineProtocol" show="false" value="false"/>
@@ -1140,13 +1140,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9295752d-ebc1-4f0a-bdfd-4f61cb400dc5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>WTgu2QxU6j9/JB2gXBrX6J0cXcilZzPYtaWGURZ/oEf5LcNEv9yuXMP9s4EaUZZSwY38GbFvbX2m&#13;
-7OVTSoLFAA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8b1d4c89-f7bf-4ae1-b334-b5b889b261cc"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PwLqTonu8k+fCF5bJ0uMSb2F+nvLouWwyQaOADEmH3sjycJsF8fjkoRHdl0Rb2bk7Vdb+MAJ6Pui&#13;
-//rl7xjQGg==</DigestValue></Reference></SignedInfo><SignatureValue>M34xgY36lVI/Gs73ks3SsRHM6mHIaKcKDx+rb1xWWu6ScE3luyZ2Vkj3dwiECywZR9N6lSpq6XWL&#13;
-BO02354ko6UD8VeMMUu2Bcmly+Z6oVTaz84VkOnmP9IxQqyQLhIA/9y0ljTn96d4h+oCtpdBma2q&#13;
-hHcVSU3V6yWgQKjWTvcI1dIZV+xf5SigUBZuZxSVXcYYozrwBwolEajihmpEcXErPWtlNypjeFPd&#13;
-2DHNNUNq63CMSAu+67216p11q9B12JdvoAdTN8Rqi1hfSZm9gbLtxylGFGGYWj9QcWBDUtp7Axpk&#13;
-BPsAxZJAK8UgehctgX+f63lr8sef+X8pZeCaIg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0acea07e-8d94-45d7-bc25-73245075fdd2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kri2ZYVfRUX82Ul8vhovJsfqqfz1Cd7ZEcEGB2iw6eTlTGuNQWzx33CXKYvjTsKgzPoUB+MMWavY&#13;
+XJQ91qhX1Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_aada89a8-6f98-4c35-af9f-fdd64c69881d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>vcBpLRih71X/prFBdKSthfas5P5UTchfdDfGb9njY5Ps43yqswjrmtMLZDU2fDBYMEszTeP55IIl&#13;
+oauguXnxWg==</DigestValue></Reference></SignedInfo><SignatureValue>VZC92aZ5eQGfA16zafR369WngO6fnRIRi4LFP5CZABTmV6g9eMLyBbn5hcksi9P5I6stMERvgLJg&#13;
+hLGFiFhekzQOnDVtChvjU9ufbvoPgOODXphKLLvKJawhrR0ShLI92f0sqBlI+h8Bs0jT8fYJaCti&#13;
+2MGPf2qW6du866O+RVB1K+2qZGakL8tnPfZosfBIY+/YejBABzZl+ZjDJy+PvmdH+1L3S7ptsQMc&#13;
+MI6j8O1+qBAze5P8hSzpi5SBGOoNsK+gpgncmZKy4ko4Vd7eQxOllftWFb/Gg9OEjWKRDTj5Vphv&#13;
+asDlf9rLtVWvn7R5mwauZy7P+N+MhtK9ohxEig==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1168,4 +1168,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8b1d4c89-f7bf-4ae1-b334-b5b889b261cc" Target="#_9295752d-ebc1-4f0a-bdfd-4f61cb400dc5"><Timestamp>2024-01-04 13:24:58</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_aada89a8-6f98-4c35-af9f-fdd64c69881d" Target="#_0acea07e-8d94-45d7-bc25-73245075fdd2"><Timestamp>2024-01-04 16:17:01</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
