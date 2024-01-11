@@ -1,0 +1,48 @@
+{
+  "itemId" : "_dvr04JK4Ee6v2YIuk5tFTg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_7NwsYDfFEeyPcp5oJi3sdg",
+    "parameterList" : [ {
+      "id" : "_zmFE7TjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_AdditionalParams"
+    }, {
+      "id" : "_zmFE6TjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Database"
+    }, {
+      "id" : "_zmFE6jjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Login"
+    }, {
+      "id" : "_zmFE6DjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Password"
+    }, {
+      "id" : "_zmFE7DjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Port"
+    }, {
+      "id" : "_zmFE6zjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Server"
+    } ]
+  }, {
+    "contextName" : "PRD",
+    "repoId" : "_7NwsYDfFEeyPcp5oJi3sdg",
+    "parameterList" : [ {
+      "id" : "_zmFE9DjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_AdditionalParams"
+    }, {
+      "id" : "_zmFE8DjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Database"
+    }, {
+      "id" : "_zmFE8TjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Login"
+    }, {
+      "id" : "_zmFE7zjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Password"
+    }, {
+      "id" : "_zmFE8zjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Port"
+    }, {
+      "id" : "_zmFE8jjEEe2N3ZmteiqE-Q",
+      "name" : "MySQL_MSU_DatalakeM3_Server"
+    } ]
+  } ]
+}
