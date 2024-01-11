@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="PRD" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" internalId="_7igyIKl6Ee66Y9x1_K8COw" name="XMLParam" prompt="XMLParam?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_7igyI6l6Ee66Y9x1_K8COw" name="DATALAKETRN" prompt="DATALAKETRN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DatalakeM3TRN"/>
     <contextParameter comment="" internalId="_7igyJql6Ee66Y9x1_K8COw" name="ApiDachser_UrlBase" prompt="ApiDachser_UrlBase?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;https://api-gateway.dachser.com/rest/v2/&quot;"/>
     <contextParameter comment="" internalId="_7igyJ6l6Ee66Y9x1_K8COw" name="ApiDachser_ApiKey" prompt="ApiDachser_ApiKey?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:VEfe9iYG2us/UtkDK+Ff0bTh2hKkHX8aczueCvJs1zlSil54vbt2j8gK4MfYrWPe3bkFHn4yjcf40vqRi7jOGw=="/>
     <contextParameter comment="" internalId="_q6ouAKmHEe66Y9x1_K8COw" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="[{ &quot;type&quot;: &quot;application/xml&quot;, &quot;data&quot;: &quot;CONN&quot; }]"/>
@@ -17,7 +16,6 @@
   </context>
   <context confirmationNeeded="false" hide="false" name="PRD">
     <contextParameter comment="" internalId="_7igyKKl6Ee66Y9x1_K8COw" name="XMLParam" prompt="XMLParam?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_7igyK6l6Ee66Y9x1_K8COw" name="DATALAKETRN" prompt="DATALAKETRN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DatalakeM3TRN"/>
     <contextParameter comment="" internalId="_7igyLql6Ee66Y9x1_K8COw" name="ApiDachser_UrlBase" prompt="ApiDachser_UrlBase?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;https://api-gateway.dachser.com/rest/v2/&quot;"/>
     <contextParameter comment="" internalId="_7igyL6l6Ee66Y9x1_K8COw" name="ApiDachser_ApiKey" prompt="ApiDachser_ApiKey?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:X/hTydHXrmNGwSzuOp0o4cfj1xnJKj4uUxcjEP6Q5CkyCsZk2JiH356yvmkVGTDm/SRfbSI2dYKnUVe65OUBGg=="/>
     <contextParameter comment="" internalId="_q6pVEKmHEe66Y9x1_K8COw" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="[{ &quot;type&quot;: &quot;application/xml&quot;, &quot;data&quot;: &quot;CONN&quot; }]"/>
@@ -33,7 +31,6 @@
   </context>
   <context confirmationNeeded="false" hide="false" name="TRN">
     <contextParameter comment="" internalId="_7igyMKl6Ee66Y9x1_K8COw" name="XMLParam" prompt="XMLParam?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_7igyM6l6Ee66Y9x1_K8COw" name="DATALAKETRN" prompt="DATALAKETRN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DatalakeM3TRN"/>
     <contextParameter comment="" internalId="_7igyNql6Ee66Y9x1_K8COw" name="ApiDachser_UrlBase" prompt="ApiDachser_UrlBase?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://api-gateway.dachser.com/rest/v2/"/>
     <contextParameter comment="" internalId="_7igyN6l6Ee66Y9x1_K8COw" name="ApiDachser_ApiKey" prompt="ApiDachser_ApiKey?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:MI862abOKP4fcRNkCWqDdf/dVaXdFms8549+/8a0XeYYNan9stWLegA96mSkcVDC8apPMbGsMvfjjIWuORNnDA=="/>
     <contextParameter comment="" internalId="_q6pVEamHEe66Y9x1_K8COw" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="[{ &quot;type&quot;: &quot;application/xml&quot;, &quot;data&quot;: &quot;CONN&quot; }]"/>
@@ -49,7 +46,6 @@
   </context>
   <context confirmationNeeded="false" hide="false" name="DEV">
     <contextParameter comment="" internalId="_7igyOKl6Ee66Y9x1_K8COw" name="XMLParam" prompt="XMLParam?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_7igyO6l6Ee66Y9x1_K8COw" name="DATALAKETRN" prompt="DATALAKETRN?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DatalakeM3TRN"/>
     <contextParameter comment="" internalId="_7igyPql6Ee66Y9x1_K8COw" name="ApiDachser_UrlBase" prompt="ApiDachser_UrlBase?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://api-gateway.dachser.com/rest/v2/"/>
     <contextParameter comment="" internalId="_7igyP6l6Ee66Y9x1_K8COw" name="ApiDachser_ApiKey" prompt="ApiDachser_ApiKey?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:Tz+vQXkSx2JaYuAz+h54xTlSCB5ZnKzZ1M1oBXvv3QppqEWWnU6lb0CaBZy97eyRKy/2IWlEHrdI/O1TUiZFSw=="/>
     <contextParameter comment="" internalId="_q6pVEqmHEe66Y9x1_K8COw" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="[{ &quot;type&quot;: &quot;application/xml&quot;, &quot;data&quot;: &quot;CONN&quot; }]"/>
@@ -267,15 +263,15 @@
     <elementParameter field="TEXT" name="LABEL" value="JDBC-M3"/>
     <elementParameter field="CHECK" name="configuration.enableDBType" show="false" value="false"/>
     <elementParameter field="CHECK" name="configuration.setRawUrl" show="false" value="true"/>
-    <elementParameter field="TEXT" name="configuration.jdbcUrl" value="&quot;jdbc:infordatalake://TANGUY_PRD&quot;"/>
+    <elementParameter field="TEXT" name="configuration.jdbcUrl" value="context.JDBC_M3_talenduser_connection_jdbcUrl"/>
     <elementParameter field="TEXT" name="configuration.port" show="false" value="80"/>
     <elementParameter field="TABLE" name="configuration.parameters" show="false"/>
     <elementParameter field="TABLE" name="configuration.jdbcDriver">
       <elementValue elementRef="configuration.jdbcDriver[].path" value="mvn:com.amazonaws/aws-java-sdk-core/1.12.147/jar"/>
     </elementParameter>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.jdbcClass" value="&quot;com.infor.idl.jdbc.Driver&quot;"/>
-    <elementParameter field="TEXT" name="configuration.userId" value="&quot;talendusr@tanguy.fr&quot;"/>
-    <elementParameter field="PASSWORD" name="configuration.password" value="enc:system.encryption.key.v1:pvU5YNa9QY1HWut2bYqkfU6QBW49/2yjRIL4CWUsrZazVAEPjnuy+54AQAJc3Q=="/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.jdbcClass" value="context.JDBC_M3_talenduser_connection_driverClass"/>
+    <elementParameter field="TEXT" name="configuration.userId" value="context.JDBC_M3_talenduser_connection_userPassword_userId"/>
+    <elementParameter field="PASSWORD" name="configuration.password" value="enc:system.encryption.key.v1:n1cBO2kHcwLiJAM3XI8nUxWS/Q5TxqjLFJYJQoGCSWRhl1iw5kakmG9QK1i1hrcFkwhEcBLDctZxeynrOcZUMQNYSuQBAX2BYFJTyCY0aMrkTGnEe7dp"/>
     <elementParameter field="CHECK" name="configuration.useSharedDBConnection" value="false"/>
     <elementParameter field="TEXT" name="configuration.sharedDBConnectionName" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="configuration.useDataSource" value="false"/>
@@ -1239,15 +1235,15 @@
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="XmlToRest"/>
   </connection>
-  <connection connectorName="RESPONSE" label="row13" lineStyle="0" metaname="RESPONSE" offsetLabelX="-22" offsetLabelY="7" outputId="1" source="tRESTClient_3" target="tLogRow_5">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row13"/>
-  </connection>
-  <connection connectorName="FAULT" label="row14" lineStyle="0" metaname="FAULT" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tRESTClient_3" target="tLogRow_6">
+  <connection connectorName="FAULT" label="row14" lineStyle="0" metaname="FAULT" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tRESTClient_3" target="tLogRow_6">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row14"/>
+  </connection>
+  <connection connectorName="RESPONSE" label="row13" lineStyle="0" metaname="RESPONSE" offsetLabelX="-22" offsetLabelY="7" outputId="2" source="tRESTClient_3" target="tLogRow_5">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row13"/>
   </connection>
   <connection connectorName="FLOW" label="row8" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tReplicate_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -1442,13 +1438,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b0191463-3216-4f07-a3b8-b6942db8417a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JoDpJtk+HvQRAOO+skUKwikLa+IdA7SSM4cdHgYPBkbXJgd0MxnJlR77E8Ae2IetDl/cyWX9rgVP&#13;
-dC7LNPNvpw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5e7930a5-effe-423e-ae25-966cc5df9cac"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6/J6aco9QnaZxyAH5oi2Q3ptWJfp1pegLSwG2rN3N9wxSGurrywTTjE8seN0EBnForQN7e0g5lHO&#13;
-rx5v22d5YQ==</DigestValue></Reference></SignedInfo><SignatureValue>Nl6H90xl0qw9fZArSuvYacgsIdHAYAbPWWoQg5Tc8qCqTQmoyd2p0+MyujMAdKSio2Rls8IBJMVG&#13;
-V1juVq12syP5z4ioOtr3ppOoI4ArhSZqw1E0FNP0Z3PfsmuMHYuw8SAk7ODWkoa9LGJkNFBjkCs2&#13;
-t3ZjKPcqsnwtPQWTeE8QTfc1m/VlzifTEdWoGPKHg+3l7N1SD+TtocHY+qTSqt7jf8WcFyRhVynO&#13;
-pMur0vP4oJn4r+1PDL/sxjE/lTvzUj3PYfpm0MU1R8QSFXaltaym5LsKC3H0NwQj4uXviUfY1xw8&#13;
-1/ygh/lSnOaiKbXKMfSZg8KSQ4QkmjqXaiA05A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_df9d4fa7-0783-42c8-9cdf-4ef3e422bd1d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>KagqZRdz9/7IeFyQRRZOPHMA4fyGtmT180+L2Hu7Wsh2bfTPFq8sU1BipnQCbitRDZU1HdZ04Fnn&#13;
+oPTm+D4Hzw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_cd80d389-c136-4781-834f-b33cafe4ec15"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>r7/fS8wlX/gGXWWzrCK3f28+U5ekBH19oRQSp+Vf/Y75XSdui4CqGrjkYXf9mGmkgubyVdva8W4n&#13;
+AYYlaiE56g==</DigestValue></Reference></SignedInfo><SignatureValue>EWfDJ/Xz7PZ6l6rs9VmS/gS5Hez/y2l8Jd/XbFerSvgqzLpd7qjf4hIfl7bWtr6ZJtIodzY2i7NJ&#13;
+GLo9OqFvSixRTSndsGGaz66xwCFx4vnO2NqkAzYkIBVwbgoihsWp2KkMoeaatcFA+lUPMLcPWmtj&#13;
+tzf4KR2782UQOpXf9eGeQUwCEpj1yL/1oKelElqTJbwDrgTDUCjvEoUbGBn0PDleCmm14vGPsT5u&#13;
+W5aVvoHl8m+lndBX8qZnstJJ6TgHA0UqJvwsnKGN5fjDtjuMsh2IQnjAoCvy3cxhx38pdacmCTKd&#13;
+CVcCPBX+ED1Eet0/TcLgOt8fk1hqGMJiUFpt6Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1470,4 +1466,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5e7930a5-effe-423e-ae25-966cc5df9cac" Target="#_b0191463-3216-4f07-a3b8-b6942db8417a"><Timestamp>2024-01-11 10:10:30</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_cd80d389-c136-4781-834f-b33cafe4ec15" Target="#_df9d4fa7-0783-42c8-9cdf-4ef3e422bd1d"><Timestamp>2024-01-11 10:32:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
