@@ -70,10 +70,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_7NwsYDfFEeyPcp5oJi3sdg",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
     "id" : "_b0hRgDcpEeyPcp5oJi3sdg",
     "version" : "Latest",
     "type" : "context"
