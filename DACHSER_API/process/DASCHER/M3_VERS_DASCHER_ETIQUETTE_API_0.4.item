@@ -635,7 +635,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.authenticationType" show="false" value="BASIC"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.grantType" show="false" value="CLIENT_CREDENTIALS"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;&#13;&#10;SELECT  &#13;&#10;DISTINCT &#13;&#10;ODHEAD.ORNO as NoCommande,&#13;&#10;DCONSI.CONN as NoExpedition,&#13;&#10;OCUSMA.CUNO,&#13;&#10;OCUSMA.CUNM as LogiNom,&#13;&#10;OCUSMA.CUA1 as LogiAdr,&#13;&#10;OCUSMA.CUA2 As LogiAdr2,&#13;&#10;OCUSMA.CUA4 as LogiPays,&#13;&#10;OCUSMA.TOWN as LogiVille,&#13;&#10;OCUSMA.PONO as LogiCodePostal,&#13;&#10;OCUSMA.PHNO as LogiTel,&#13;&#10;COALESCE (OCUSAD.CUNM,'[! PB Adresse !]') as CliNom,&#13;&#10;COALESCE (CASE WHEN (LENGTH(OCUSAD.CUA2)&gt;1) THEN OCUSAD.CUA1 ELSE '' END,' ')  as CliNom2,&#13;&#10;COALESCE (CASE WHEN (LENGTH(OCUSAD.CUA2)&gt;1) THEN OCUSAD.CUA2 ELSE OCUSAD.CUA1 END,'[! PB Adresse !]')  as CliAdr,&#13;&#10;COALESCE (LEFT(OCUSAD.CUA4,2),'FR')  as CliPays,&#13;&#10;COALESCE (OCUSAD.TOWN ,'[! PB Adresse !]') as CliVille,&#13;&#10;CASE WHEN ( OCUSAD.PHNO='') then '0' else COALESCE (OCUSAD.PHNO,'0') end  as tel,&#13;&#10;COALESCE (OCUSAD.PONO ,'99999') as CliCodePostal,&#13;&#10;CASE WHEN (TO_DATE(LEFT(CAST(NOW() as varchar),10),'YYYY-MM-DD')&gt;TO_DATE(CAST(DCONSI.DSDT as varchar),'YYYYMMDD')) THEN TO_DATE(LEFT(CAST(NOW() as varchar),10),'YYYY-MM-DD') ELSE TO_DATE(CAST(DCONSI.DSDT as varchar),'YYYYMMDD') END as LivDat1,&#13;&#10;DCONSI.ARDT as LivDat2,&#13;&#10;CASE WHEN (LENGTH(OCUSAD.CUA2)&gt;1) THEN 1 ELSE 0 END as ADR2,&#13;&#10;'&lt;shipment type&gt;' as content&#13;&#10;FROM ODHEAD &#13;&#10; LEFT JOIN OCUSMA ON OCUSMA.CUNO =ODHEAD.CUNO &#13;&#10; LEFT JOIN DCONSI ON DCONSI.CONN =ODHEAD.CONN &#13;&#10; LEFT JOIN OCUSAD ON OCUSAD.ADID =ODHEAD.ADID AND OCUSAD.CUNO  =ODHEAD.CUNO &#13;&#10; LEFT JOIN MPTRNS ON MPTRNS.DLIX = ODHEAD.DLIX &#13;&#10;WHERE DCONSI.CONN = &quot;+globalMap.get(&quot;CONN&quot;)+&quot; --1046197 -- &quot;+globalMap.get(&quot;CONN&quot;)+&quot; -- 1042481  -- 1040704  1040704 -- &#13;&#10;ORDER BY ODHEAD.ORNO;&#13;&#10;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;&#13;&#10;SELECT  &#13;&#10;DISTINCT &#13;&#10;ODHEAD.ORNO as NoCommande,&#13;&#10;DCONSI.CONN as NoExpedition,&#13;&#10;OCUSMA.CUNO,&#13;&#10;OCUSMA.CUNM as LogiNom,&#13;&#10;OCUSMA.CUA1 as LogiAdr,&#13;&#10;OCUSMA.CUA2 As LogiAdr2,&#13;&#10;OCUSMA.CUA4 as LogiPays,&#13;&#10;OCUSMA.TOWN as LogiVille,&#13;&#10;OCUSMA.PONO as LogiCodePostal,&#13;&#10;OCUSMA.PHNO as LogiTel,&#13;&#10;COALESCE (OCUSAD.CUNM,'[! PB Adresse !]') as CliNom,&#13;&#10;COALESCE (CASE WHEN (LENGTH(OCUSAD.CUA2)&gt;1) THEN OCUSAD.CUA1 ELSE '' END,' ')  as CliNom2,&#13;&#10;COALESCE (CASE WHEN (LENGTH(OCUSAD.CUA2)&gt;1) THEN OCUSAD.CUA2 ELSE OCUSAD.CUA1 END,'[! PB Adresse !]')  as CliAdr,&#13;&#10;COALESCE (LEFT(OCUSAD.CUA4,2),'FR')  as CliPays,&#13;&#10;COALESCE (OCUSAD.TOWN ,'[! PB Adresse !]') as CliVille,&#13;&#10;CASE WHEN ( OCUSAD.PHNO='') then '0' else COALESCE (OCUSAD.PHNO,'0') end  as tel,&#13;&#10;COALESCE (OCUSAD.PONO ,'99999') as CliCodePostal,&#13;&#10;CASE WHEN (TO_DATE(LEFT(CAST(NOW() as varchar),10),'YYYY-MM-dd')&gt;TO_DATE(CAST(DCONSI.DSDT as varchar),'YYYYMMdd')) THEN TO_DATE(LEFT(CAST(NOW() as varchar),10),'YYYY-MM-dd') ELSE TO_DATE(CAST(DCONSI.DSDT as varchar),'YYYYMMdd') END as LivDat1,&#13;&#10;DCONSI.ARDT as LivDat2,&#13;&#10;CASE WHEN (LENGTH(OCUSAD.CUA2)&gt;1) THEN 1 ELSE 0 END as ADR2,&#13;&#10;'&lt;shipment type&gt;' as content&#13;&#10;FROM ODHEAD &#13;&#10; LEFT JOIN OCUSMA ON OCUSMA.CUNO =ODHEAD.CUNO &#13;&#10; LEFT JOIN DCONSI ON DCONSI.CONN =ODHEAD.CONN &#13;&#10; LEFT JOIN OCUSAD ON OCUSAD.ADID =ODHEAD.ADID AND OCUSAD.CUNO  =ODHEAD.CUNO &#13;&#10; LEFT JOIN MPTRNS ON MPTRNS.DLIX = ODHEAD.DLIX &#13;&#10;WHERE DCONSI.CONN = &quot;+globalMap.get(&quot;CONN&quot;)+&quot; --1046197 -- &quot;+globalMap.get(&quot;CONN&quot;)+&quot; -- 1042481  -- 1040704  1040704 -- &#13;&#10;ORDER BY ODHEAD.ORNO;&#13;&#10;&quot;"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useAutoCommit" show="false" value="true"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.autoCommit" show="false" value="false"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.defineProtocol" show="false" value="false"/>
@@ -1239,15 +1239,15 @@
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="XmlToRest"/>
   </connection>
-  <connection connectorName="RESPONSE" label="row13" lineStyle="0" metaname="RESPONSE" offsetLabelX="-22" offsetLabelY="7" outputId="1" source="tRESTClient_3" target="tLogRow_5">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row13"/>
-  </connection>
-  <connection connectorName="FAULT" label="row14" lineStyle="0" metaname="FAULT" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tRESTClient_3" target="tLogRow_6">
+  <connection connectorName="FAULT" label="row14" lineStyle="0" metaname="FAULT" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tRESTClient_3" target="tLogRow_6">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row14"/>
+  </connection>
+  <connection connectorName="RESPONSE" label="row13" lineStyle="0" metaname="RESPONSE" offsetLabelX="-22" offsetLabelY="7" outputId="2" source="tRESTClient_3" target="tLogRow_5">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row13"/>
   </connection>
   <connection connectorName="FLOW" label="row8" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tReplicate_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -1442,13 +1442,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6f2e69c1-fbbc-4bf0-8a12-d1675dd42911"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>NhJxdgBbMPtHAlR6g2tgoZ8TvcFAog0VUDOM8SPqMZCjqoAm6lmK1b2Nrl6/HwAF/5mYWguVhRxl&#13;
-+MNaGTuOXw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c3f4b561-2f02-43b8-9429-85ab674dcb77"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PtfR4gBdct4WBMspwXq2c5DDojYZosLmehxveFSqIUtvfa9NN0qjDmYnW5Lx0vHsYka4pidIPUF6&#13;
-iYcSVkhRwg==</DigestValue></Reference></SignedInfo><SignatureValue>GLCGTq9n+BguB0iviaqq07HafbzpqE/WkZtAMOT/EhXejRPfTeCSD05m+Bem9KXw33h5daaPYVIQ&#13;
-j2ig/lMsJ8CM1YgzFBbxKO0yL/SMtXSJmfmwDdvnDJgKCRhQrg71DfYAhSPoLmyBob5SZEASY+sB&#13;
-u6SweMac9DDfUi/FPhM62GwYQYIRu30oeEgK5ae6GCEfsVUi09OkAcAEIokMqhCezg1UuhatwxY1&#13;
-mNLBcFMfeJdOsfva+Jas+AUiNLIKTUXzOtrmJ2OJ33Ox+IHHu6Jn0ybsrn5KxD18H07LAxY38sHq&#13;
-zL1z8SvPSVGsKFrJiGc0+5mIi1iKGgTDMbGiWg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e4e41fa1-f33c-4a4d-a2a2-3af85816518f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/V65hc04MH+38uN8+dVL1g9c2ovOq93jqgwQYnM0DtMfvwv8lZpozMr37cQSEtc6EoFG9+9Uvn3v&#13;
+ZVqKKiJ3JA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_995447aa-0ca9-4aca-adad-a06d5618ca4a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>75Twit3ZYkCdvdPLCFEbqiui5Hqfs9tixGxhALznWAB/pndnbNFiYKXuQ07xli7ATOFAoL2B/ER3&#13;
+3r0FtRvKqg==</DigestValue></Reference></SignedInfo><SignatureValue>DYyexqrlhpn8kGzgTzAMrDmasK6bnf4mgdK92wFAJ2J7Ps8lGI0tmdtu28ZzSvsmx6rO0xSiAzX8&#13;
+b7eqwVwixSVfaKBxsY7i1FiFpP8yQNgM1NC86+TTPuHCUIVXVNecdpE8ssjaVmVYPrxq3iDqonQq&#13;
+cOpDE+8rfD7Dl51s69Tnf0VManK9iEFf1aaar7ERy7umFgyDV/a9tAWHwP8WP7J3a7ALe/fX2geG&#13;
+CqUkWRJgahFNvSZEaN1QB99zNia2WSJBeh0p7now9Z4T2tzTEsHUEDK6MGAfXR9pkfFy2Q1SZxbb&#13;
+GtGuHH51Z0eyjt3ep//peehdv+uJxZZ91B0CHA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1470,4 +1470,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c3f4b561-2f02-43b8-9429-85ab674dcb77" Target="#_6f2e69c1-fbbc-4bf0-8a12-d1675dd42911"><Timestamp>2024-01-30 13:19:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_995447aa-0ca9-4aca-adad-a06d5618ca4a" Target="#_e4e41fa1-f33c-4a4d-a2a2-3af85816518f"><Timestamp>2024-02-05 16:31:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
