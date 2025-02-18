@@ -186,38 +186,35 @@
       <column comment="" key="false" length="-1" name="CurentHeure_UTC_RGTM" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="JDBCConnection" componentVersion="1" offsetLabelX="5" offsetLabelY="9" posX="1280" posY="-192">
+  <node componentName="JDBCConnection" componentVersion="2" offsetLabelX="5" offsetLabelY="9" posX="1280" posY="-192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="bmV3amRiYyNKREJDI0lucHV0Connection"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="TEXT" name="LABEL" value="JDBC-M3"/>
-    <elementParameter field="CHECK" name="configuration.enableDBType" show="false" value="false"/>
-    <elementParameter field="CHECK" name="configuration.setRawUrl" show="false" value="true"/>
+    <elementParameter field="CHECK" name="configuration.defineProtocol" value="false"/>
+    <elementParameter field="TEXT" name="configuration.port" value="80"/>
+    <elementParameter field="TEXT" name="configuration.dbMapping" value="mysql_id"/>
+    <elementParameter field="PASSWORD" name="configuration.password" value="enc:system.encryption.key.v1:3lWDr0UOXBC2pwCwEQPnYgtEHO58q9V8qo/cZKZ0UkyLXShExwBHJTLFEdny5pCz1JosSHvm7x7/xGYzVl2oUBDndvf8LU/fMEWrypAb6rwFsHX1dEdW"/>
+    <elementParameter field="TEXT" name="configuration.connectionTimeOut" value="30"/>
+    <elementParameter field="TEXT" name="configuration.sharedDBConnectionName" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.useDataSource" value="false"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.jdbcClass" value="context.JDBC_M3_talenduser_connection_driverClass"/>
+    <elementParameter field="CHECK" name="configuration.useSharedDBConnection" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.grantType" value="CLIENT_CREDENTIALS"/>
+    <elementParameter field="CHECK" name="configuration.enableDBType" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSourceAlias" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.authenticationType" value="BASIC"/>
+    <elementParameter field="TEXT" name="configuration.userId" value="context.JDBC_M3_talenduser_connection_userPassword_userId"/>
+    <elementParameter field="CHECK" name="configuration.useAutoCommit" value="true"/>
     <elementParameter field="TEXT" name="configuration.jdbcUrl" value="context.JDBC_M3_talenduser_connection_jdbcUrl"/>
-    <elementParameter field="TEXT" name="configuration.port" show="false" value="80"/>
+    <elementParameter field="CHECK" name="configuration.setRawUrl" value="true"/>
+    <elementParameter field="CHECK" name="configuration.autoCommit" value="false"/>
+    <elementParameter field="TEXT" name="configuration.connectionValidationTimeOut" value="10"/>
+    <elementParameter field="TECHNICAL" name="configuration.__version" show="false" value="-1"/>
     <elementParameter field="TABLE" name="configuration.parameters" show="false"/>
     <elementParameter field="TABLE" name="configuration.jdbcDriver">
       <elementValue elementRef="configuration.jdbcDriver[].path" value="mvn:com.amazonaws/aws-java-sdk-core/1.12.147/jar"/>
     </elementParameter>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.jdbcClass" value="context.JDBC_M3_talenduser_connection_driverClass"/>
-    <elementParameter field="TEXT" name="configuration.userId" value="context.JDBC_M3_talenduser_connection_userPassword_userId"/>
-    <elementParameter field="PASSWORD" name="configuration.password" value="enc:system.encryption.key.v1:3lWDr0UOXBC2pwCwEQPnYgtEHO58q9V8qo/cZKZ0UkyLXShExwBHJTLFEdny5pCz1JosSHvm7x7/xGYzVl2oUBDndvf8LU/fMEWrypAb6rwFsHX1dEdW"/>
-    <elementParameter field="CHECK" name="configuration.useSharedDBConnection" value="false"/>
-    <elementParameter field="TEXT" name="configuration.sharedDBConnectionName" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="configuration.useDataSource" value="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSourceAlias" show="false" value="&quot;&quot;"/>
-    <elementParameter field="MAPPING_TYPE" name="configuration.dbMapping" show="false" value="mysql_id"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.authenticationType" show="false" value="BASIC"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.grantType" show="false" value="CLIENT_CREDENTIALS"/>
-    <elementParameter field="CHECK" name="configuration.useAutoCommit" value="true"/>
-    <elementParameter field="CHECK" name="configuration.autoCommit" value="false"/>
-    <elementParameter field="CHECK" name="configuration.defineProtocol" show="false" value="false"/>
-    <elementParameter field="TEXT" name="configuration.connectionTimeOut" show="false" value="30"/>
-    <elementParameter field="TEXT" name="configuration.connectionValidationTimeOut" show="false" value="10"/>
-    <elementParameter field="TECHNICAL" name="configuration.__version" show="false" value="-1"/>
     <metadata connector="FLOW" name="tDBConnection_1"/>
     <metadata connector="LOOKUP" name="LOOKUP"/>
     <metadata connector="MERGE" name="MERGE"/>
@@ -443,13 +440,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ad266f3c-5d9a-4715-a061-00cf4772537c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Dwy0couXbkF49wEYFRaUJfW9W4W8xZ2shGKn6Y8dOTOazcbJz6Bpm44oED42l2mJox3yybJ0PRfz&#13;
-mYtEcktMaA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_edc6086c-bdbe-4884-b185-e3f399d71cf8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6UwKoTAJ7sIuOW7o16w7mLGjcAJZMMNpNdbSaSR5SD+j6/XqLnud4rMOlWHvpYgtV0oVSZx6cCEL&#13;
-kNn8GFp32Q==</DigestValue></Reference></SignedInfo><SignatureValue>heKjNEMRW2KLALpxEDA5nOpMQhTBClkFxE/08NQRD4irWoUuTi9QZ5/PFoZVLJ3nQPwyUq7lhJSb&#13;
-XgPfHF/a9+CmY2Zmikk8hcYTzGGCbdmFkvk+FGDuIxVd4nec/bB6yw5ul2AwO/02C67VtouWIfR4&#13;
-K2DG+5URe4agr5ALeyvgc6A6FVpRWzZ+dumZlDZu0RFJym7GBF5EwZaYU62HSSD34709SjlV15ne&#13;
-ngQI1tz/5sPJy3i0FWA0LIOQlM9M67XMCRB9aw/H3fuPdbOj32h2JvZXlnJ/j2frTHpgvqMjUqBo&#13;
-Vsp1DAKM08njWhmX1Sq3ySPRtD9JDouZf4xKuw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1603298d-38dc-41d6-b440-7ce41194c3a7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/mBejVJ4YrjGR9vWFuV+osDEWi4Yk4GY8osuBIYl2X+/cNDLJvuvqCyuWwm5Ws3sk8EQPChkmZMu&#13;
+fAvdzlQDtA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3d3b0686-de35-4ad3-9447-57a8fa0be893"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5ZW72eKw+VeKP7v6dZv4FFecKjrtC0i8SYiu/t1IPNwOcE0M4/v0hzo0NIfQrDOa1W6HE0DLVipZ&#13;
+OmkmrSOJzw==</DigestValue></Reference></SignedInfo><SignatureValue>nMJ+GMibCxNK9vRcBpx5pyRddW6srFHOvJymXRHHot38oPH5ZeAW3lkQcJqyej35W8WXcqkXOKRF&#13;
+7t8TJu2QeKVY/omnN0v371nGnruAtLSnrrbX2qgGHhM+jIvor+9d3cA28/GFRJlCXdEVl58wULqO&#13;
+A/uDNzP0Bg1gsLGdjyKQxJb2G3F13te4ihpGeh1rt7qkLgY4ItUuCmceE7xEgacpkvuEl/L/Q8Bc&#13;
+Kji2MeiG5oogvmsdFkSMo6yCwE3mqFuikrtaNfrTnJlBX2nz5Wbe5U+gtwMVdGv8B3I0IMBzs98Z&#13;
+P82ppSI1uE56HassPMp0Lg1OBDYwjuTOWoDtwQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -471,4 +468,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_edc6086c-bdbe-4884-b185-e3f399d71cf8" Target="#_ad266f3c-5d9a-4715-a061-00cf4772537c"><Timestamp>2024-01-11 13:04:24</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3d3b0686-de35-4ad3-9447-57a8fa0be893" Target="#_1603298d-38dc-41d6-b440-7ce41194c3a7"><Timestamp>2025-02-18 10:05:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
